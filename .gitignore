@@ -1,0 +1,25 @@
+# 密钥
+.env
+.env.*
+!.env.example
+
+# 你的片子工程（通常很大，另建仓库或只备份关键文件）
+projects/
+
+# Python / Node
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# 媒体和渲染产物
+*.mp4
+*.mov
+*.wav
+*.m4a
+*.zip
+out/
+
+# 系统文件
+.DS_Store
+Thumbs.db

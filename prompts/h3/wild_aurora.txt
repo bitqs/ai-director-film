@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic real-time night footage, a single continuous wide shot of a vast, untouched snowfield stretching to a low dark mountain ridge on the horizon under a sky full of stars. Brilliant curtains of green aurora borealis with violet and pink fringes ripple, fold and dance quickly across the whole sky, their rays shimmering vertically, and the shifting green light glows on the smooth snow surface. The camera pans right with small amplitude at slow speed across the landscape.
+
+overall_soundscape: A cold, steady wind sweeps across the snowfield with a faint hiss of blowing powder snow, over a deep, quiet stillness.
+
+non_diegetic_music: N/A

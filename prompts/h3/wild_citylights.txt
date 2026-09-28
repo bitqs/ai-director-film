@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic aerial footage at blue hour, a single continuous high-angle shot over a dense downtown whose buildings and streets are all dark. Starting from the centre of the frame, the city lights switch on district by district in sudden rhythmic steps: a whole block of windows, street lamps and rooftop lights snaps on at once, then the next block, then the next, the wave of light spreading outward toward the edges of the frame until the entire city glitters with warm amber and cool white lights. The camera pushes in with small amplitude at slow speed.
+
+overall_soundscape: Deep electric clunks of massive switches thud as each block lights up, followed by a rising electrical hum, while the soft wash of city traffic swells underneath.
+
+non_diegetic_music: N/A

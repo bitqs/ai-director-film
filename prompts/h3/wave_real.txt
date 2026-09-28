@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, a single continuous low-angle wide shot from a rocky shoreline under a dark overcast sky at dusk: jagged black volcanic rocks fill the foreground, and a towering slate-blue ocean wave, several stories high, rears up behind them with its crest curling over in white foam. Within the first second the wave slams into the black rocks and explodes upward into a colossal burst of white spray that rushes toward the camera; by about two seconds the flying spray and mist fill the entire frame and wash over the lens, turning the image into a churning white-grey veil streaked with droplets. The camera shakes slightly from the impact, then holds its position as the mist slowly thins, revealing the black rocks streaming with white water while the sea drains back.
+
+overall_soundscape: The deep roar of the approaching swell builds into a thunderous crash as the wave hits the rocks, followed by the hiss of falling spray, droplets spattering on the lens and foamy water pouring off the rocks, over a steady coastal wind.
+
+non_diegetic_music: N/A

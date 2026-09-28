@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic underwater footage in the deep blue open ocean, a single continuous upward-looking shot: bright shafts of sunlight pierce down from the rippling silver surface and fan out into the blue depths, with drifting particles glinting in the rays. The dark silhouette of a humpback whale glides slowly across the frame between the camera and the surface, its long pectoral fins spread like wings and its shadow cutting through the light beams. The camera tilts up with small amplitude at slow speed as the whale passes.
+
+overall_soundscape: Muffled underwater ambience with a deep, soft rush of the ocean, faint rising bubbles and the long, haunting call of a humpback whale echoing through the water.
+
+non_diegetic_music: N/A

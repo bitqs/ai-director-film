@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic aerial footage at dusk, a single continuous shot of an active volcano's lava delta: several rivers of glowing orange lava pour off a black volcanic cliff straight into the churning ocean. Where the molten rock meets the waves it explodes into huge billowing columns of white steam that glow orange from below, while black rock fragments and spatter burst into the air and the surf breaks against the fresh lava. The camera trucks right with small amplitude at slow speed along the coastline, keeping the lava falls in the centre of the frame.
+
+overall_soundscape: A roaring hiss of steam and violent sizzling where lava hits the sea, sharp crackling and small explosive pops of cooling rock, pounding surf and a deep volcanic rumble.
+
+non_diegetic_music: N/A

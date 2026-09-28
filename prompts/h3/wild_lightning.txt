@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, a single continuous static wide shot at night of a flat desert plain with distant flat-topped mesas beneath a vast, dark thunderstorm. Multiple jagged lightning bolts strike the ground one after another and several at once across the horizon, each branching bolt lighting the clouds and the whole desert in a purple-white flash for an instant, with brief darkness between strikes. The strikes come faster toward the end of the shot while the camera holds still.
+
+overall_soundscape: Sharp, splitting cracks of thunder follow each strike and roll away into deep, overlapping rumbles, over a dry desert wind.
+
+non_diegetic_music: N/A

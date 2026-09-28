@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, a single continuous low-angle shot at night looking steeply up along the glass curtain wall of a dark skyscraper during a violent thunderstorm. Torrential rain slants diagonally across the whole frame in dense silver streaks lit by the city glow, hammering against the glass panels, bursting into tiny splashes and running down the facade in wavering sheets of water. At about 1 second a forked lightning bolt tears across the sky behind the tower and the whole rain curtain flashes bright blue-white, freezing thousands of drops in the air and lighting up the grid of wet glass panels; darkness returns, and a second, weaker flash flickers at about 2.5 seconds. The camera tilts up with small amplitude at slow speed along the facade while the rain keeps pouring until the end of the shot.
+
+overall_soundscape: A roaring downpour drums hard on the glass and gushes down the facade, with gusting wind and water splashing off ledges. A sharp crack of thunder follows the first lightning flash and rolls away into a long, deep rumble.
+
+non_diegetic_music: N/A

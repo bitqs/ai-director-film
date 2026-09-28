@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic night aerial footage, a single continuous top-down bird's-eye view looking straight down from high above a vast megacity. The frame is filled edge to edge with a dense, orderly grid of city blocks: thousands of lit windows and rooftop lights in warm amber and cool white, separated by perfectly straight streets and avenues that cross at right angles. Streams of white headlights and red tail lights crawl along the avenues like glowing blood vessels, and scattered windows flicker on and off across the blocks. The camera pedestals up with small amplitude at slow speed, rising straight upward so the grid of lights slowly shrinks and more blocks enter from every edge of the frame, until the city stretches beyond all four edges as an endless carpet of light under a thin, glowing haze.
+
+overall_soundscape: A deep, distant hum of city traffic rises from far below, with faint car horns, a far-off siren and the steady rush of high-altitude wind.
+
+non_diegetic_music: N/A

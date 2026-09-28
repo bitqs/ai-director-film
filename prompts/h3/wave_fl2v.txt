@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] The shot begins as clean computer graphics and turns into live-action, cinematic footage: a wireframe grid of thin glowing lines forms a sea surface that rises and falls in smooth sine waves on a black background, as established by Picture 1. The grid lines thicken and fill in with real water, turning into a dark slate-blue ocean with foam and spray, and one swell rises higher and higher, growing into a towering real wave that rears up behind jagged black rocks under a dark overcast sky, its crest curling over in white foam, settling into the wave, rocks, composition and lighting established by Picture 2 at the end of the shot.
+
+overall_soundscape: A low synthetic whoosh gives way to the deep roar of a real ocean swell building, with wind over the water and foam hissing on the rocks.
+
+non_diegetic_music: N/A

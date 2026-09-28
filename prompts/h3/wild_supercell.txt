@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic time-lapse, a single continuous wide shot of a colossal rotating supercell thunderstorm over flat green prairie at dusk. The storm's layered, striated mothership cloud fills the upper two thirds of the frame, its bands of cloud spiralling around a dark central updraft, and a low, ominous wall cloud hangs beneath it above the horizon while lightning flickers deep inside the core. A straight, empty gravel road runs from the bottom of the frame across the grassland toward the storm. The whole cloud structure visibly rotates and churns throughout the shot while the camera holds a static shot on a tripod.
+
+overall_soundscape: Strong gusting wind hisses across the tall grass, with deep, continuous rolling thunder from the storm and the faint rattle of a wire fence.
+
+non_diegetic_music: N/A

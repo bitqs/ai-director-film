@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, a single continuous low-angle wide shot at dawn from the edge of a launch complex, looking up at a tall, plain white rocket with a smooth unpainted body standing on its launch pad beside a steel service tower. The engines ignite in a blinding orange-white flash, and enormous billows of white exhaust cloud erupt sideways across the ground from the flame trench. The rocket slowly lifts off the pad, then accelerates upward on a brilliant pillar of fire and climbs toward the top of the frame, while the camera tilts up with large amplitude at fast speed to follow it and shakes strongly from the shockwave.
+
+overall_soundscape: A deep crackling thunder of the rocket engines builds into an overwhelming, distorted roar, with the rushing hiss of exhaust, rattling metal and a pressure wave that buffets the microphone.
+
+non_diegetic_music: N/A

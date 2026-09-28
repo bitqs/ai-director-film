@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] The shot begins as flat computer graphics and turns into live-action, cinematic night aerial footage: a top-down grid of glowing digits on a black background fills the frame, as established by Picture 1. The camera pedestals up with small amplitude at slow speed. Cell by cell the grid turns real: each glowing digit softens into a lit window of warm amber or cool white light, the dark gaps between the cells become rooftops and straight streets, and streams of headlights begin to crawl along the lines between the blocks. As the camera keeps rising, more blocks enter from every edge and the grid becomes a vast megacity seen straight down at night, settling into the composition, lighting and street grid established by Picture 2 at the end of the shot.
+
+overall_soundscape: Soft digital ticking fades into the deep, distant hum of city traffic rising from far below, with faint car horns and the steady rush of high-altitude wind.
+
+non_diegetic_music: N/A

@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic astrophotography time-lapse at night, a single continuous static wide shot of a jagged, snow-capped mountain range silhouetted against a clear sky. The bright galactic core of the Milky Way arches over the peaks, dense with stars and dark dust lanes, and the whole starfield rotates smoothly across the sky while a faint green airglow hovers above the horizon and a few thin clouds stream quickly past the summits.
+
+overall_soundscape: A quiet, steady high-altitude wind breathes over the ridges, with the occasional soft whisper of blowing snow.
+
+non_diegetic_music: N/A

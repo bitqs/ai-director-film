@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, a single continuous wide shot looking straight down a long, empty desert highway that runs to the horizon between wooden power poles. A colossal wall of orange-brown sand hundreds of meters tall rolls toward the camera across the desert, swallowing the road and the power poles one after another; the daylight dims to a deep orange as the churning dust front arrives and engulfs the camera, filling the frame with swirling sand. The camera holds a static shot and shakes slightly as the wind hits.
+
+overall_soundscape: A low rumble grows into a howling roar of wind, with sand hissing and pelting against the asphalt and the power lines whistling and rattling.
+
+non_diegetic_music: N/A

@@ -1,0 +1,5 @@
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, a single continuous wide shot from a boat on dark water facing the towering blue-white ice cliff of a tidewater glacier under a grey sky. A section of the ice cliff as tall as a skyscraper splits away and collapses into the sea, crumbling into huge blocks that plunge into the water and throw up an enormous wall of white spray, while a surging wave rolls outward toward the camera through the floating chunks of ice in the foreground. The camera holds steady with a slight bobbing motion of the boat.
+
+overall_soundscape: Thunderous cracking and a deep roar of collapsing ice, a massive splash and the rushing surge of water, followed by floating ice chunks clinking and knocking together.
+
+non_diegetic_music: N/A

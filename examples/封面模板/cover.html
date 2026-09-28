@@ -1,0 +1,99 @@
+<!doctype html>
+<!-- 《溢出》抖音封面：?layout=h（横 4:3，2160×1620）或 ?layout=v（竖 3:4，1620×2160）。
+     背景是成片里的真实一帧（高潮 167.0 s：烟花上空的数字「算」），bg_h.jpg / bg_v.jpg 由 3840×2160 截图裁出（裁掉了画面右上角的水印）。
+     头像 covers/avatar.jpg。和《足够震撼》的封面同一套字体、配色和版式。由 scripts/covers.ts 截图输出到 out/。 -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: Hei; src: url(/fonts/NotoSansSC-VF.ttf); font-weight: 100 900; }
+  @font-face { font-family: ArchivoC; src: url(/fonts/Archivo-w620-900.ttf); font-weight: 900; }
+  @font-face { font-family: Plex; src: url(/fonts/src/IBMPlexMono-Medium.ttf); font-weight: 500; }
+  :root { --ink: #0A0A0B; --ink2: #151517; --graphite: #5E5B57; --ash: #9C978F; --bone: #EEE9DF; --signal: #FF4D12; --ember: #FF8A3D; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: var(--ink); overflow: hidden; }
+  .cv { position: relative; overflow: hidden; background: var(--ink); color: var(--bone); font-family: Hei; }
+  .h { width: 2160px; height: 1620px; }
+  .v { width: 1620px; height: 2160px; }
+  .bg { position: absolute; inset: 0; background-size: cover; background-position: center; }
+  .shade { position: absolute; inset: 0; }
+  .vig { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 75% at 50% 45%, transparent 55%, rgba(0, 0, 0, 0.55) 100%); }
+  .grain { position: absolute; inset: 0; opacity: 0.08; mix-blend-mode: screen;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+  .mono { font-family: Plex; font-weight: 500; letter-spacing: 0.04em; }
+  .abs { position: absolute; }
+  .sig { color: var(--signal); }
+  .ash { color: var(--ash); }
+  .chan { display: flex; align-items: center; gap: 28px; }
+  .av { border-radius: 50%; overflow: hidden; background: var(--ink2); box-shadow: 0 0 0 5px var(--bone), 0 0 0 11px var(--signal), 0 0 40px rgba(255, 77, 18, 0.45); flex: none; position: relative; }
+  .av img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .chan b { font-weight: 700; color: var(--bone); letter-spacing: 0.06em; white-space: nowrap; text-shadow: 0 2px 24px rgba(0, 0, 0, 0.8); }
+  .title { font-weight: 900; line-height: 0.92; letter-spacing: -0.02em; white-space: nowrap;
+    text-shadow: 0 0 60px rgba(255, 77, 18, 0.35), 0 8px 60px rgba(0, 0, 0, 0.85); }
+  .rule { position: absolute; height: 2px; background: rgba(238, 233, 223, 0.35); }
+  .cursor { display: inline-block; background: var(--signal); vertical-align: -0.12em; box-shadow: 0 0 18px rgba(255, 77, 18, 0.8); }
+  .sup { font-size: 0.55em; vertical-align: 0.72em; margin-left: 0.04em; }
+  .label { text-shadow: 0 2px 16px rgba(0, 0, 0, 0.9); background: rgba(10, 10, 11, 0.82); padding: 16px 24px; border-radius: 10px; box-shadow: 0 0 40px rgba(0, 0, 0, 0.6); }
+  .runtime { font-family: ArchivoC; font-weight: 900; line-height: 1; text-shadow: 0 6px 40px rgba(0, 0, 0, 0.8); }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const layout = new URLSearchParams(location.search).get('layout') || 'h';
+const avatar = (size, fs) => `
+  <div class="chan">
+    <div class="av" style="width:${size}px;height:${size}px"><img src="avatar.jpg"></div>
+    <b style="font-size:${fs}px">爽哥说</b>
+  </div>`;
+// 「上一部，我只算到 10³⁰⁸」 — literally true: 《足够震撼》's meter ran 10⁶⁴ → googol → 10³⁰⁸ (the double's ceiling) → ∞ → ERR
+const sub = (size) => `<div style="font-size:${size}px;font-weight:800;white-space:nowrap;text-shadow:0 4px 30px rgba(0,0,0,.9)">上一部，我只<span class="sig">算</span>到 <span class="sig" style="font-family:ArchivoC;font-weight:900;text-shadow:0 0 24px rgba(255,77,18,.6)">10<span class="sup">308</span></span><span class="cursor" style="width:${size * 0.06}px;height:${size * 1.02}px;margin-left:${size * 0.16}px"></span></div>`;
+const small = (size) => `<div class="ash" style="font-size:${size}px;font-weight:400;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.9)">这一次，<span style="color:var(--bone)">震撼度：溢出</span>&nbsp;&nbsp;·&nbsp;&nbsp;《足够震撼》续集</div>`;
+const post = `<div class="vig"></div><div class="grain"></div>`;
+
+const H = () => `
+<div class="cv h">
+  <div class="bg" style="background-image:url(bg_h.jpg)"></div>
+  <div class="shade" style="background:
+      linear-gradient(to bottom, rgba(10,10,11,.55) 0%, rgba(10,10,11,0) 18%),
+      linear-gradient(to bottom, rgba(10,10,11,0) 44%, rgba(10,10,11,.72) 62%, rgba(10,10,11,.96) 80%, #0A0A0B 100%)"></div>
+  <div class="abs mono label" style="left:110px;top:120px;font-size:28px"><span style="color:var(--bone);opacity:.75">片名 / TITLE</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="sig">《足够震撼》续集</span></div>
+  <div class="abs" style="right:110px;top:78px">${avatar(170, 84)}</div>
+  <div class="abs title" style="left:92px;top:905px;font-size:470px">溢出</div>
+  <div class="abs" style="left:1118px;top:1030px">${sub(76)}</div>
+  <div class="abs" style="left:1122px;top:1150px">${small(40)}</div>
+  <div class="rule" style="left:110px;right:110px;top:1400px"></div>
+  <div class="abs mono ash" style="left:112px;top:1450px;font-size:26px">帧 #09300 · t = 155.000 s · 我是 Opus 5.5</div>
+  <div class="abs" style="right:104px;top:1418px;text-align:right">
+    <div class="mono ash" style="font-size:22px;margin-bottom:8px">片长 · RUNTIME</div>
+    <div class="runtime" style="font-size:118px">3′06″</div>
+  </div>
+  ${post}
+</div>`;
+
+const V = () => `
+<div class="cv v">
+  <div class="bg" style="background-image:url(bg_v.jpg)"></div>
+  <div class="shade" style="background:
+      linear-gradient(to bottom, rgba(10,10,11,.6) 0%, rgba(10,10,11,0) 12%),
+      linear-gradient(to bottom, rgba(10,10,11,0) 46%, rgba(10,10,11,.7) 60%, rgba(10,10,11,.95) 74%, #0A0A0B 100%)"></div>
+  <div class="abs mono label" style="left:110px;top:110px;font-size:28px"><span style="color:var(--bone);opacity:.75">片名 / TITLE</span>&nbsp;&nbsp;&nbsp;<span class="sig">《足够震撼》续集</span></div>
+  <div class="abs title" style="left:50%;transform:translateX(-50%);top:1180px;font-size:600px">溢出</div>
+  <div class="abs" style="left:110px;top:1790px">${sub(84)}</div>
+  <div class="rule" style="left:110px;right:110px;top:1930px"></div>
+  <div class="abs" style="left:110px;top:1962px">${avatar(150, 72)}</div>
+  <div class="abs" style="right:104px;top:1975px;text-align:right">
+    <div class="mono ash" style="font-size:22px;margin-bottom:6px">片长 · RUNTIME</div>
+    <div class="runtime" style="font-size:108px">3′06″</div>
+  </div>
+  ${post}
+</div>`;
+
+document.getElementById('root').innerHTML = layout === 'v' ? V() : H();
+document.fonts.ready
+  .then(() => Promise.all([...document.images].map((i) => i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; }))))
+  .then(() => Promise.all(['bg_h.jpg', 'bg_v.jpg'].map((s) => new Promise((r) => { const im = new Image(); im.onload = im.onerror = r; im.src = s; }))))
+  .then(() => { window.__coverReady = true; });
+</script>
+</body>
+</html>
