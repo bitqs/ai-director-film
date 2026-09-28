@@ -61,3 +61,10 @@
 - **渲染引擎：** 两部片子的起点是 [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video)（MIT 协议）：一个用 TypeScript + three.js 逐帧渲染的音乐视频工程，同样是用 Claude 做的。本仓库不包含它的代码，AI 会在你的项目里克隆它并在此基础上改；二次分发时请保留它的 LICENSE。
 - **本仓库：** MIT 协议，见 [LICENSE](LICENSE)。第三方说明见 [NOTICE.md](NOTICE.md)。
 - **出品：** 抖音「爽哥说」。发布用本方法做的片子时，请按平台规定勾选「内容由 AI 生成」。
+
+## 关注作者
+
+用这套方法拍出来的片子都发在抖音「爽哥说」（抖音号 `shuanggetalk`）：
+
+- 主页：<https://v.douyin.com/03MZTQpLOgs/>
+- 或者打开抖音，搜索「爽哥说」/ `shuanggetalk`，查看更多作品。
